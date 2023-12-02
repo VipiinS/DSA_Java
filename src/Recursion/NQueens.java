@@ -22,7 +22,9 @@ public class NQueens {
         return result;
     }
     private static void helper(int col, int n, String[][] ans, List<List<String>> result){
-
+        if(col == n){
+//            result.add(ans);
+        }
 
     }
 }

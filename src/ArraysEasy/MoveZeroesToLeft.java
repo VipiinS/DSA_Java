@@ -14,16 +14,12 @@ public class MoveZeroesToLeft {
         int l = 0 , r = 0;
         while(r<nums.length){
             if (nums[r] == 0) {
-//                l++;
                 r++;
             }
             else if(nums[r] != 0){
                 nums[l++] = nums[r++];
             }
-            else if (nums[r] == 0)
-                r++;
         }
-//        l++;
         while(l < nums.length)
             nums[l++] = 0;
         return nums;
