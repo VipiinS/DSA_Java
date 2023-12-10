@@ -8,7 +8,7 @@ public class removeDuplicates {
         System.out.println(removeDuplicatesInaArray(nums));
         System.out.println(Arrays.toString(nums));
     }
-    public static int removeDuplicatesInaArray(int[] nums) {
+     static int removeDuplicatesInaArray(int[] nums) {
         if(nums.length == 1) return 1;
         int l = 0;
         int r = 1;
